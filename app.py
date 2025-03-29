@@ -14,4 +14,4 @@ def data():
 
 @app.route('/api/foo', methods=['GET'])
 def foo():
-    return jsonify({"message": "Hello, Foo"})
+    return jsonify({"message": "Hello, Foo"}) 
